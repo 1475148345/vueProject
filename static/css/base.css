@@ -1,0 +1,6 @@
+.angle-left{
+    width: 15px;
+    height: 33px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAWCAMAAADO+P1vAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAn1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAKyV+qAAAAM3RSTlMAMNRtDdhepZxl0Qot9fInC9dYopRhzAYq7yHV/lCdjpua0lwp9NOgn9YrYqOhDGMu3HndNmIAAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAHdJREFUCNc9zkkWgkAQA9B2AJSmFRSRGURQwQE097+bi6oiq/9esohSlMVyxVpbsJkONqwtXE3yzG5P8gMcuD4iZJ0QnUmxSVKSzvKC6xIVS9W4CHWDq7jtulZs46bFdzzmeT8/VIMxsfiJ3he/8BZ+Aozi6fv7A4+gCQPpGUoFAAAAAElFTkSuQmCC");
+    background-size: contain;
+}

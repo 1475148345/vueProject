@@ -1,0 +1,16 @@
+/* flex布局 */
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-jc-sb{
+    justify-content: space-between;
+}
+.flex-ai-c{
+    align-items: center;
+}
+.flex-jc-c{
+    justify-content: center;
+}
