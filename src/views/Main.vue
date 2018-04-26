@@ -9,14 +9,16 @@
                 </div>
             </nav>
         </section>
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default {
   name: "Main",
-  components: { Header },
+  components: { Header,Footer },
   data() {
     return {
       headerData: {
@@ -52,6 +54,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.contain{
+  background-color: #f8f8f8;
+}
 .hello {
   display: flex;
   flex-direction: column;
@@ -63,6 +68,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     div {
+      background-color: #fff;
       width: 25%;
       height: 25vw;
       display: flex;
