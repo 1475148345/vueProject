@@ -9,7 +9,7 @@
                 </div>
             </nav>
         </section>
-        <Footer></Footer>
+        <Footer :footerInfo="footerInfo"></Footer>
     </div>
 </template>
 
@@ -25,6 +25,11 @@ export default {
         leftIcon: "angle-left",
         header: "家装助手"
       },
+      footerInfo: [
+        { icon: "footer-icon1", text: "首页", active: true },
+        { icon: "footer-icon2", text: "消息", active: false },
+        { icon: "footer-icon3", text: "我的", active: false }
+      ],
       navs: [
         {icon: "icon1",text: "业务"},
         {icon: "icon2",text: "工程"},
@@ -53,17 +58,9 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<style src="../../static/css/base.css"></style>
 <style scoped lang="scss">
-.contain{
-  background-color: #f8f8f8;
-}
 .hello {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  > section {
-    flex: 1;
-  }
   nav {
     display: flex;
     flex-wrap: wrap;
